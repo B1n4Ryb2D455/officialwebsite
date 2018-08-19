@@ -26,8 +26,7 @@ body {
 }
 
 .sara_mainpic {
-  height: auto;
-  min-width: 0;
+     display: flex;
 }
 
 figcaption {
@@ -44,6 +43,10 @@ img {
 footer {
   color: oldlace;
   text-align: center;
+}
+
+.box_three {
+  flex-direction: row;
 }
 
 .memGame {}
