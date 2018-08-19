@@ -34,6 +34,15 @@
     text-align: center;
     color: #730500;
   }
+   .whatiDo {
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+     justify-content: center;
+     width: 100%;
+     font-size: x-small;
+         margin-top: 10px;
+   }
 }
 
 @media screen and (min-width: 616px) and (max-width: 1023px) {
@@ -49,6 +58,14 @@
   .box_five {
     font-size: xx-large;
   }
+   .whatiDo {
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+     justify-content: center;
+     width: 100%;
+         margin-top: 25px;
+   }
   }
 
 @media screen and (min-width: 1024px) {
@@ -71,4 +88,13 @@
   .box_five {
     font-size: xx-large;
   }
+
+  .whatiDo {
+         display: flex;
+         flex-wrap: wrap;
+         text-align: center;
+         justify-content: center;
+         width: 100%;
+             margin-top: 25px;
+    }
 }

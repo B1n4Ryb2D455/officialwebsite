@@ -9,6 +9,16 @@ video {
   max-width: 100%;
 }
 
+h1 {
+  display: flex;
+}
+
+.whatiDo {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 body {
   font-family: "Yatra One", cursive;
   background-image: url(../img/smoke.jpg);
@@ -27,6 +37,7 @@ body {
 
 .sara_mainpic {
      display: flex;
+     opacity: .4%;
 }
 
 figcaption {
