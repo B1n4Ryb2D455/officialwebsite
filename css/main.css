@@ -12,6 +12,7 @@ video {
 body {
   font-family: "Yatra One", cursive;
   background-image: url(../img/smoke.jpg);
+  background-blend-mode: lighten;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -44,3 +45,7 @@ footer {
   color: oldlace;
   text-align: center;
 }
+
+.memGame {}
+
+.arcGame {}
