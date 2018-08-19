@@ -10,6 +10,7 @@
 
 .box_five {
   width: 100%;
+  justify-content: center;
 }
 
 @media screen and (min-width: 359px) and (max-width: 759px) {
