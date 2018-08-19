@@ -21,8 +21,8 @@
   }
   .box_two {
     margin: auto;
-        width: 100%;
-        justify-content: center;
+    width: 100%;
+    justify-content: center;
   }
   .box_three {
     display: flex;
@@ -34,15 +34,15 @@
     text-align: center;
     color: #730500;
   }
-   .whatiDo {
-     display: flex;
-     flex-wrap: wrap;
-     text-align: center;
-     justify-content: center;
-     width: 100%;
-     font-size: x-small;
-         margin-top: 10px;
-   }
+  .whatiDo {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: x-small;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 616px) and (max-width: 1023px) {
@@ -58,27 +58,27 @@
   .box_five {
     font-size: xx-large;
   }
-   .whatiDo {
-     display: flex;
-     flex-wrap: wrap;
-     text-align: center;
-     justify-content: center;
-     width: 100%;
-         margin-top: 25px;
-   }
+  .whatiDo {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
   }
+}
 
 @media screen and (min-width: 1024px) {
   .box_two {
     margin: inherit;
-        display: inherit;
-        width: 100%;
-        justify-content: center;
+    display: inherit;
+    width: 100%;
+    justify-content: center;
   }
   .box_three {
-   display: flex;
-   width: 100%;
-   justify-content: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
   }
   .box_four {
     display: inherit;
@@ -88,13 +88,12 @@
   .box_five {
     font-size: xx-large;
   }
-
   .whatiDo {
-         display: flex;
-         flex-wrap: wrap;
-         text-align: center;
-         justify-content: center;
-         width: 100%;
-             margin-top: 25px;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+  }
 }

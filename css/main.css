@@ -36,8 +36,8 @@ body {
 }
 
 .sara_mainpic {
-     display: flex;
-     opacity: .4%;
+  display: flex;
+  opacity: .4%;
 }
 
 figcaption {
@@ -59,7 +59,3 @@ footer {
 .box_three {
   flex-direction: row;
 }
-
-.memGame {}
-
-.arcGame {}
