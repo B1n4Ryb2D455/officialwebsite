@@ -3,26 +3,11 @@
   flex-wrap: wrap;
 }
 
-.box {
-  height: 100%;
-  width: 100%;
-}
-
-footer {
-  width: 100%;
-  justify-content: center;
-}
-
 @media screen and (min-width: 300px) and (max-width: 759px) {
   figure {
     margin: auto;
     padding: 3px;
     margin-top: 0px;
-  }
-  .box_two {
-    margin: auto;
-    width: 100%;
-    justify-content: center;
   }
   .second_row {
     display: flex;
@@ -37,27 +22,15 @@ footer {
 }
 
 @media screen and (min-width: 616px) and (max-width: 1023px) {
-  .box_two {
-    margin: auto;
-  }
   .second_row {
     display: inherit;
   }
   .top_row {
     display: inherit;
   }
-  .box_five {
-    font-size: xx-large;
-  }
 }
 
 @media screen and (min-width: 1024px) {
-  .box_two {
-    margin: inherit;
-    display: inherit;
-    width: 100%;
-    justify-content: center;
-  }
   .second_row {
     display: flex;
     width: 100%;
@@ -67,8 +40,5 @@ footer {
     display: inherit;
     width: 100%;
     justify-content: center;
-  }
-  .box_five {
-    font-size: xx-large;
   }
 }
