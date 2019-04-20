@@ -8,7 +8,7 @@
   width: 100%;
 }
 
-.box_five {
+footer {
   width: 100%;
   justify-content: center;
 }
@@ -24,12 +24,12 @@
     width: 100%;
     justify-content: center;
   }
-  .box_three {
+  .second_row {
     display: flex;
     text-align: center;
     color: #730500;
   }
-  .box_four {
+  .top_row {
     display: flex;
     text-align: center;
     color: #730500;
@@ -40,10 +40,10 @@
   .box_two {
     margin: auto;
   }
-  .box_three {
+  .second_row {
     display: inherit;
   }
-  .box_four {
+  .top_row {
     display: inherit;
   }
   .box_five {
@@ -58,12 +58,12 @@
     width: 100%;
     justify-content: center;
   }
-  .box_three {
+  .second_row {
     display: flex;
     width: 100%;
     justify-content: center;
   }
-  .box_four {
+  .top_row {
     display: inherit;
     width: 100%;
     justify-content: center;
